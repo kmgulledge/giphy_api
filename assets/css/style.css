@@ -1,0 +1,86 @@
+/** Here is the most amazingly awesome blue belt coding ninja CSS  **/
+
+/* Body 
+-------------------------------------------------- */
+
+body{
+    background: url("../images/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box;
+}
+
+/* Giphy Images
+-------------------------------------------------- */
+img { 
+    height: 150px;
+    width: 150px;
+}
+
+/* Add and Delete Buttons
+-------------------------------------------------- */
+.btn {
+      margin: 3px;
+      background-color: #999999;
+      border-color: #fff;
+}
+
+/* Giphy into one line
+-------------------------------------------------- */
+.gifDiv{
+        float: left;
+        margin: 3px;
+}
+
+/* Conatiner Opacity
+-------------------------------------------------- */
+.container {
+            background-color: #fff;
+            opacity: .8;
+            padding: 20px;
+}
+
+/* Jumbotron CSS
+-------------------------------------------------- */
+.jumbotron {
+            background-color: inherit;
+}
+
+.jumbotron .h1,
+.jumbotron h1 {
+               text-align: center;
+}
+
+/* Media Query styles
+-------------------------------------------------- */
+
+/** phone in landscape **/
+@media only screen 
+and (max-width: 640px) {
+  
+  body {
+    background-image: none !important; background-color: #A9A9A9;
+  }
+}
+
+/** tablet device **/
+@media only screen
+and (min-width: 641px)
+and (max-width: 768px) {
+
+body {
+    background-image: none !important; background-color: #A9A9A9;
+  }
+}
+
+/** desktop and laptop devices **/
+@media only screen
+and (min-width: 769px)
+and (max-width: 980px) {
+
+    body {
+    background-image: none !important; background-color: #A9A9A9;
+  }
+}
